@@ -88,4 +88,5 @@ foreach ($p in Get-ProfileDirs) {
   }
 }
 
-if ($needs) { exit 1 } else { exit 0 }
+if ($needs) {  1 } else {  0 }
+
